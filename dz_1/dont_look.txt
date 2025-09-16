@@ -1,0 +1,9 @@
+cd build
+cmake ..
+cmake --build .
+cmake --build . --config Release
+
+// cmake --build . --clean-first
+
+.\bin\Release\tests1.exe
+.\bin\Release\closest_pair_tonum.exe
