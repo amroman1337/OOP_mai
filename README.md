@@ -79,9 +79,7 @@ psql --version
       ```bash
       source venv/bin/activate
       ```
----
-
-
+      
 3. **Установите зависимости из `requirements.txt`:**
    ```bash
    pip install -r requirements.txt
@@ -95,6 +93,7 @@ psql --version
 cp .env_example .env
 ```
 
+---
 
 ### 3. Запуск проекта на локальном компьютере
 
