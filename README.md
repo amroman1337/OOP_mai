@@ -99,8 +99,8 @@ cp .env_example .env
 ### 3. Запуск проекта на локальном компьютере
 
 Для работы проекта необходима запущенная на компьютере база данных PostgreSQL. Все данные сервера для БД хранятся в файле .env.
-Самое главное POSTGRES_PORT=5436 и TASK_VERSION=3, логин и пароль юзера =team_finder.
-После заполнения `.env` и настройки базы данных необходимо применить миграции:
+- Самое главное POSTGRES_PORT=5436 и TASK_VERSION=3, логин и пароль юзера =team_finder.
+- После заполнения `.env` и настройки базы данных необходимо применить миграции:
 ```bash
 python manage.py migrate
 ```
@@ -117,10 +117,10 @@ python manage.py runserver
 
 ## Тестовые пользователи создаются автоматически при миграции. 
 Пароль для всех: `testpass123`
- Email Имя 
- petrova@test.com Диана Петрова
- ivanov@test.com Дмитрий Иванов
- sidorov@test.com Павел Сидоров
+Email Имя 
+- petrova@test.com Диана Петрова
+- ivanov@test.com Дмитрий Иванов
+- sidorov@test.com Павел Сидоров
 
 Вход: [http://127.0.0.1:8000/users/login/](http://127.0.0.1:8000/users/login/)
 
